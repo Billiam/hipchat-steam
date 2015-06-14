@@ -1,11 +1,11 @@
 {
-  "name": "my-addon-key",
-  "displayName": "My Add-on Name",
-  "description": "You add-on description",
+  "name": "hipchat-steam-link",
+  "displayName": "Steamer",
+  "description": "Display information about steam URLs in hipchat",
   "version": "0.1.0",
   "author": {
-    "name": "My Name",
-    "url": "http://mycompany.com"
+    "name": "Billiam",
+    "url": "http://billiam.github.io"
   },
   "license": "Apache 2.0",
   "engines": {
@@ -25,6 +25,9 @@
   },
   "dependencies": {
     "ac-koa": "^0.2.6",
-    "ac-koa-hipchat": "^0.2.14"
+    "ac-koa-hipchat": "^0.2.14",
+    "ac-koa-hipchat-notifier": "^0.1.0",
+    "co-request": "^0.2.0",
+    "cheerio": "^0.19.0"
   }
 }

@@ -1,0 +1,16 @@
+{{#if image}}
+<a href="{{url}}"><img src="{{image}}" /></a> <br />
+{{/if}}
+
+<b><a href="{{url}}">{{title}}</a></b>: 
+
+{{currentPrice}}
+
+{{#if originalPrice}}
+	(regularly {{originalPrice}})
+{{/if}}
+
+<br />
+{{#if reviews}}
+Reviews: <em>{{reviews}}</em>
+{{/if}}
